@@ -1,0 +1,70 @@
+/*font-family: 'Permanent Marker', cursive;*/
+body{
+    transition:1s;
+    text-align:center;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    
+    }
+    @keyframes move{
+    from{
+        transform: rotate(360deg);
+    }
+        
+    to{ 
+         transform: rotate(0deg);
+        }
+    }
+    @keyframes zoom{
+     0%   { 
+     transform: translateX(0%); 		
+     }
+    25% { 
+     transform: translateX(-70%); 
+    }
+    50% { 
+     transform: translateX(0%); 
+    }
+    75% { 
+     transform: translateX(70%); 
+    }
+    100% { 
+     transform: translateX(0%); 
+    }
+    }
+.main h1{
+    padding-top:25%;
+    font-family: 'Permanent Marker', cursive;
+    font-size:60px;
+    text-align:center;
+    }
+.main h1:hover, .main h1:hover{
+    cursor:pointer;
+    }
+
+.main h2{
+    font-family: 'Permanent Marker', cursive;
+    font-size:30px;
+    text-align:center;
+    }
+
+.main{
+    width:45%;
+    height:900px;
+    border-radius:25px;
+    }
+.moodInput,.enter{
+    width:400px;
+    text-align:center;
+    height:50px;
+    font-size:25px;
+    margin:auto;
+    border-radius:7px;
+    background:#FFFFFe;
+    }
+.placement{
+    margin:20px auto;
+    width:400px;
+    height:400px;
+    }
