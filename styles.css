@@ -5,7 +5,8 @@ body{
     display:flex;
     justify-content:space-around;
     align-items:center;
-    
+    background:url(https://media.giphy.com/media/riw3K0D2h4klG/giphy.gif);
+    background-size:cover ;
     }
     @keyframes move{
     from{
@@ -34,7 +35,6 @@ body{
     }
     }
 .main h1{
-    padding-top:25%;
     font-family: 'Permanent Marker', cursive;
     font-size:60px;
     text-align:center;
@@ -50,9 +50,12 @@ body{
     }
 
 .main{
+    transition:1s;
     width:45%;
-    height:900px;
+    background:white;
     border-radius:25px;
+    margin-top:250px;
+    padding:60px;
     }
 .moodInput,.enter{
     width:400px;
