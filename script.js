@@ -39,7 +39,7 @@ $(".enter").click(function(){
     } 
     else{
         alert("Please Enter Another Mood");
-        $("body").css("background","white");
+        $("body").css("background","url(https://media.giphy.com/media/riw3K0D2h4klG/giphy.gif)");
         $("body img").fadeOut(300);
         $(".pics").fadeOut(300);
         }
@@ -67,7 +67,7 @@ function happyMood(){
     $("body img").hide();
     $(".pics").fadeIn();
     $("body").css("background","gold");
-    
+    $(".main ").css("background","gold");
     happyPics.forEach(function(pic){
             $(".pics").append("<img class='placement'src='"+pic+"'>");
         });
@@ -79,6 +79,7 @@ function sickMood(){
     $(".pics").fadeIn();
     $("body img").hide();
     $("body").css("background","limegreen");
+    $(".main").css("background","limegreen");
     
     sickPics.forEach(function(pic){
             $(".pics").append("<img class='placement'src='"+pic+"'>");
@@ -88,6 +89,7 @@ function sadMood(){
     $(".pics").fadeIn();
     $("body img").hide();
     $("body").css("background","#0065ff");
+    $(".main").css("background","#0065ff");
     
     sadPics.forEach(function(pic){
             $(".pics").append("<img width: 75%; margin:20 auto; src='"+pic+"'>");
@@ -97,6 +99,7 @@ function confusedMood(){
     $(".pics").fadeIn();
         $("body img").hide();
     $("body").css("background","grey");
+    $(".main").css("background","grey");
     
     confusedPics.forEach(function(pic){
             $(".pics").append("<img class='placement'src='"+pic+"'>");
@@ -107,6 +110,7 @@ function crazyMood(){
     $(".pics").fadeIn();
         $("body img").hide();
     $("body").css("background","purple");
+    $(".main").css("background","purple");
     
     crazyPics.forEach(function(pic){
             $(".pics").append("<img style='width: 75%; margin:20 auto;' src='"+pic+"'>");
@@ -117,6 +121,7 @@ function boredMood(){
     $(".pics").fadeIn();
         $("body img").hide();
     $("body").css("background","skyblue");
+    $(".main").css("background","skyblue");
     
     boredPics.forEach(function(pic){
             $(".pics").append("<img style='width: 75%; margin:20 auto;' src='"+pic+"'>");
@@ -127,6 +132,7 @@ function madMood(){
     $(".pics").fadeIn();
         $("body img").hide();
     $("body").css("background","#f23232");
+    $(".main").css("background","#f23232");
     
     madPics.forEach(function(pic){
             $(".pics").append("<img style='width: 75%; margin:20 auto;' src='"+pic+"'>");
